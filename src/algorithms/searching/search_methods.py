@@ -1,8 +1,8 @@
 def binary_search(arr, start, end, key):
 
     while start <= end:
-        mid = int(start + (end - start)/2)
-        
+        mid = int(start + (end - start) / 2)
+
         if arr[mid] == key:
             return mid
         elif arr[mid] < key:
